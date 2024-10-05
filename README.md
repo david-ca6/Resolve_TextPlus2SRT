@@ -19,10 +19,22 @@ To use TextPlus2SRT, you need to have DaVinci Resolve installed and running.
 
 Once you have the necessary dependencies, you can run the script from the command line. There are three commands available:
 
-1. `export`: This command exports text from a specified track in the timeline to a .srt file. You need to provide the path to the .srt file and the name of the track.
+1. `export`: This command exports text from a specified track in the timeline to a .srt file. You need to provide the path to the .srt file and the name of the track.  
+    For example to export the track named "EN" to the file "test.srt" you can do:
+    ```
+    python textp2srt.py export test.srt EN
+    ```
 
 2. `update`: This command updates the text in a specified track in the timeline with the text from a .srt file. You need to provide the path to the .srt file and the name of the track.
+    For example to update the track named "EN" with the text from the file "test.srt" you can do:
+    ```
+    python textp2srt.py update test.srt EN
+    ```
 
 3. `render`: This command updates the text in a specified track in the timeline with the text from a .srt file, and then starts rendering the project. You need to provide the path to the .srt file and the name of the track.
+    For example to update the track named "EN" with the text from the file "test.srt", then render the project, you can do:
+    ```
+    python textp2srt.py render test.srt EN
+    ```
 
 The script is designed to be used in a command line environment, but it can also be integrated into other Python scripts or applications.
