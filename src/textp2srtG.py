@@ -91,6 +91,7 @@ def main():
         dpg.add_file_dialog(
             directory_selector=True, show=False,
             callback=lambda s, a, u: dpg.set_value("directory", a['file_path_name']),
+            height=400,
             tag="directory_dialog"
         )
 
@@ -120,7 +121,7 @@ def main():
 
     directory_dialog()
 
-    dpg.create_viewport(title="Text+2SRT", width=500, height=300)
+    dpg.create_viewport(title="Text+2SRT", width=600, height=500, resizable=False)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     print(dpg.set_primary_window("TextPlus2SRT", True))
