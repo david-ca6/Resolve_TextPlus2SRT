@@ -15,6 +15,8 @@ pip install pandas typer
 ```
 
 ## Usage
+
+### CLI
 To use TextPlus2SRT, you need to have DaVinci Resolve installed and running. 
 
 Once you have the necessary dependencies, you can run the script from the command line. There are three commands available:
@@ -38,3 +40,18 @@ Once you have the necessary dependencies, you can run the script from the comman
     ```
 
 The script is designed to be used in a command line environment, but it can also be integrated into other Python scripts or applications.
+
+### GUI
+
+The GUI version is a simple application that allows you to export text from a DaVinci Resolve track to a .srt file, and update the timeline with text from a .srt file.
+
+To run the GUI version, you need to have the necessary dependencies installed. You can install them using pip:
+```
+pip install pandas typer dearpygui
+```
+
+Then you can run the script from the command line:
+```
+python textp2srtG.py
+```
+
