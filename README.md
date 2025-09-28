@@ -1,4 +1,9 @@
+# THIS  PROJECT OS NOT MAINTAINED ANYMORE
+# USE [Davinci Simple Caption](https://github.com/david-ca6/Davinci-Simple-Caption) INSTEAD
+# IT IS CROSS-PLATFORM AND CAN RUN INSIDE RESOLVE.
+
 # TextPlus2SRT (tp2srt)
+
 TextPlus2SRT (tp2srt) is a Python script that allows you to export Text+ from a DaVinci Resolve track to a .srt file, and update the timeline with text from a .srt file.  
 It uses the DaVinci Resolve API, pandas libraries and typer libraries.
 
@@ -49,7 +54,6 @@ To run the GUI version, you need to have the necessary dependencies installed. Y
 ```
 pip install pandas typer dearpygui
 ```
-
 Then you can run the script from the command line:
 ```
 python textp2srtG.py
