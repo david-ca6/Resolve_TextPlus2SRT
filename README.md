@@ -1,5 +1,5 @@
 # THIS  PROJECT IS NOT MAINTAINED ANYMORE
-# use [Davinci Simple Caption](https://github.com/david-ca6/Davinci-Simple-Caption) instead, it is cross-platform and can run inside Davinci Resolve 19+ (free and studio version)
+# use [Resolve OpenCaptions](https://github.com/david-ca6/Resolve-OpenCaptions) instead, it is cross-platform and can run inside Davinci Resolve 19+ (free and studio version)
 
 # TextPlus2SRT (tp2srt)
 
