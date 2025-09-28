@@ -1,5 +1,5 @@
-# THIS  PROJECT OS NOT MAINTAINED ANYMORE
-# USE [Davinci Simple Caption](https://github.com/david-ca6/Davinci-Simple-Caption) INSTEAD, IT IS CROSS-PLATFORM AND CAN RUN INSIDE RESOLVE.
+# THIS  PROJECT IS NOT MAINTAINED ANYMORE
+# USE [Davinci Simple Caption](https://github.com/david-ca6/Davinci-Simple-Caption) INSTEAD, IT IS CROSS-PLATFORM AND CAN RUN INSIDE DAVINCY RESOLVE FREE.
 
 # TextPlus2SRT (tp2srt)
 
